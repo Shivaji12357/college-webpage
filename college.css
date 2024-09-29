@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: fixed;
+    overflow-x:hidden ;
+}
+.back{
+    margin-left: 30px;
+    background: fixed;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.content{
+    display: inline-flex;
+}
+.content p{
+    margin-top: 50px;
+}
+ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 30%;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+   background-color: rgb(210, 30, 30);
+   color: white;
+}
+ul li:hover{
+    background-color:aqua;
+    box-shadow: 10px 10px 5px red;
+    cursor: pointer;
+}
+.video-clg{
+    width:100%;
+    margin-top: 30px;
+    overflow-x:auto;
+}
+h5{
+    color: red;
+   margin: 20px 0px 10px 10px;
+}
+.courses{
+    background-color: green;
+    color: white;
+    width: 25%;
+    height:10%;
+    padding: 20px 10px 10px 10px;
+    border-top-right-radius:150px;
+    border-top-width: 25px;
+    border-bottom-width: 30px;
+}
+.info{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(47, 8, 136) ;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 10px 20px 10px;
+    float: right;
+}
+.about-clg{
+    width: 35%;
+    border-top-width: 25px;
+    border-bottom-width: 30px;
+    background-color: green;
+    height: 15%;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-top-right-radius: 100px;
+    text-align: center;
+    color: white;
+    margin-right: 300px;
+}
+.images{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    margin-left: 300px;
+}
+.details{
+    display:block;  
+    justify-content: center;
+    width: 100%;
+    height:450px;
+    margin: 30px 30px 30px 30px;
+}
+.special{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 50px 40px 50px 40px;
+    font-size: 23px;
+}
+.departments{
+    width: 100%;
+    height:350px;
+    display: flex;
+    align-content: center;
+}
+.branches{
+    display:block;
+    height:300px;
+}
+.groups{
+    width:280px;
+    margin-left: 30px;
+    background-size:cover ;
+}
+.faculty{
+    width: 100%;
+    height:200px;
+    background-color: darkcyan;
+}
+.college-info i {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 50px 5% 500px 10%;
+}
+.college-info h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.section5{
+    display: block;
+    justify-content: center;
+    width:100%;
+    height: 200px;
+}
+.section6{
+    width: 200px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.section6 img{
+    width: 120px;
+    margin: 30px 150px 0px 150px;
+    border-radius: 80%;
+    display: inline-block;
+    justify-content: space-between;
+}
+.section6 p{
+    margin: 0px 150px 0px 150px;
+   
+}
+.acheivements{
+    width: 100%;
+    height: 250px;
+    background-color: cornsilk;
+    display: block;
+    justify-content: center;
+}
+.acheivements1{
+    display: inline-block;
+    width: 300px;
+    margin: 30PX 30PX 30PX 30PX;
+}
+.acheivements1 i{
+    color:red;
+}
+.acheivements1 span{
+    color: black;
+}
+.subscribe{
+    background-color:rgb(6, 9, 72);
+    width: 100%;
+    height: 130px;
+}
+.subscribe1{
+    display: block;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    margin: 0px 10px 10px 30px;
+    border-top:20px ;
+    border-top-right-radius: 60px;
+}
+.subscribe1 h4{
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+.block{
+    display:block;
+    justify-content: end;
+}
+.help{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(0, 0, 0, 0.7)
+}
+.contact{
+    display: inline-block;
+    justify-content: space-between;
+    width: 300px;
+    margin: 30px 70px 30px 70px;
+    color: white;
+}
+.bottom{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
